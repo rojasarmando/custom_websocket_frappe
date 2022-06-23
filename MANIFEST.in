@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include custom_websocket_frappe *.css
+recursive-include custom_websocket_frappe *.csv
+recursive-include custom_websocket_frappe *.html
+recursive-include custom_websocket_frappe *.ico
+recursive-include custom_websocket_frappe *.js
+recursive-include custom_websocket_frappe *.json
+recursive-include custom_websocket_frappe *.md
+recursive-include custom_websocket_frappe *.png
+recursive-include custom_websocket_frappe *.py
+recursive-include custom_websocket_frappe *.svg
+recursive-include custom_websocket_frappe *.txt
+recursive-exclude custom_websocket_frappe *.pyc
