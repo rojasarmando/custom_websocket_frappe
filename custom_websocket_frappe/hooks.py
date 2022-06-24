@@ -95,13 +95,17 @@ app_license = "MIT"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
+doc_events = {
 # 	"*": {
 # 		"on_update": "method",
 # 		"on_cancel": "method",
 # 		"on_trash": "method"
 #	}
-# }
+ 'Item':{
+        "on_update": "custom_websocket_frappe.custom_websocket_frappe.socket.delivery_slip_connector_socketio"
+  }
+
+ }
 
 # Scheduled Tasks
 # ---------------
